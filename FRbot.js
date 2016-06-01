@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Dark1997/HJLBot/master/lang/cz.json", function (json) {
+        $.get("https://rawgit.com/Dark1997/FRbot/master/lang/cz.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -238,19 +238,19 @@
     var basicBot = {
         version: "2.4.4",
         status: false,
-        name: "HJLBot",
+        name: "FRbot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Dark1997/HJLBot/master/HJLczech.json",
+        chatLink: "https://rawgit.com/Dark1997/FRbot/master/FRczech.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "HJLBot",
+            botName: "FRbot",
             language: "czech",
-            chatLink: "https://rawgit.com/Dark1997/HJLBot/master/HJLczech.json",
+            chatLink: "https://rawgit.com/Dark1997/FRbot/master/FRczech.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
@@ -309,7 +309,7 @@
             songstats: false,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
+                NSFW: "https://rawgit.com/Dark1997/FRbot/master/NSFW.json",
                 OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
                 BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
             }
