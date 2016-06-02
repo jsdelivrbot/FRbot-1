@@ -3,7 +3,7 @@ Příkazy:
 
 X specifikuje číslo.
 Argumenty můžou být různé.
-Uvedené příkazy se vyskytují v BasicBotu. Kromě speciálních navržené pro Hudba je Všetko.
+Uvedené příkazy se vyskytují v BasicBotu. Kromě speciálních navržené pro Free Run.
 
 
 Manažér
