@@ -332,7 +332,7 @@
     "website": "/me Prosím navštivte naše webové stránky: %%LINK%%",
     "youtube": "/me [%%NAME%%] Dejte nám odběr na youtube: %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
-    "prikazy": "/me Seznam FR příkazů: https://github.com/Dark1997/FRbot/blob/master/P%C5%99%C3%ADkazy.md",
+    "prikazy": "/me Seznam FR příkazů: https://goo.gl/3pRVBp",
     "slovnik": "/me @%%NAME%%, můžeš se laskavě uklidnit?",
     "thorNotClose": "\/me @%%NAME%%, you're not worthy of getting close to the hammer!",
     "thorcd": "\/me @%%NAME%% you can try to lift the hammer in %%TIME%% minutes.",
