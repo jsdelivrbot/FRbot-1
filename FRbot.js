@@ -236,12 +236,12 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.4.4",
+        version: "6.9.9",
         status: false,
         name: "FRbot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://rawgit.com/Dark1997/FRbot/master/Prikazy.md",
         chatLink: "https://rawgit.com/Dark1997/FRbot/master/FRczech.json",
         chat: null,
         loadChat: loadChat,
@@ -253,8 +253,8 @@
             chatLink: "https://rawgit.com/Dark1997/FRbot/master/FRczech.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupCap: 100, // 1-200
+            startupVolume: 50, // 0-100
             startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
@@ -262,7 +262,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: true,
-            maximumDc: 60,
+            maximumDc: 120,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -270,12 +270,12 @@
             maximumLocktime: 10,
             cycleGuard: true,
             maximumCycletime: 10,
-            voteSkip: false,
-            voteSkipLimit: 10,
+            voteSkip: true,
+            voteSkipLimit: 5,
             historySkip: false,
             timeGuard: true,
             maximumSongLength: 8.15,
-            autodisable: true,
+            autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
             thorCommand: true,
