@@ -197,7 +197,7 @@
     "welcome": "/me Vítej %%NAME%%",
     "welcomeback": "/me Vítej zpět, %%NAME%%",
     "songknown": "/me @%%NAME%%, tato skladba je již v DJ historii.",
-    "notavailable": "/me @%%NAME%%, skladba, kterou jsi hrál/a, nebyla dotupná.",
+    "notavailable": "/me @%%NAME%%, skladba, kterou jsi hrál/a, nebyla dostupná.",
     "timelimit": "/me @%%NAME%%, tvoje skladba je delší než %%MAXLENGTH%% minut, potřebuješ svolení hrát delší skladby.",
     "permissionownsong": "/me :up: @%%NAME%% má právo hrát svojí produkci.",
     "isblacklisted": "/me Tato skladba je na %%BLACKLIST%% blacklistu! Bude přeskočena!",
